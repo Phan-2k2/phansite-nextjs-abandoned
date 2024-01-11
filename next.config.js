@@ -10,9 +10,9 @@ const nextConfig = {
    *
    * @see https://nextjs.org/docs/pages/api-reference/components/image#unoptimized
    */
-  images: {
-    unoptimized: true,
-  }
+  // images: {
+  //   unoptimized: true,
+  // }
  
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
