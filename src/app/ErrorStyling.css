@@ -12,13 +12,11 @@
     height: 80%;
 }
 .errorbutton{
-    margin-top: 1em;
     color: white;
     background-color: gray;
     text-transform: none;
 }
 .errorbutton:hover{
-    margin-top: 1em;
     color: black;
     background-color: white;
     text-transform: none;
