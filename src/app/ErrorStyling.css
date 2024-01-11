@@ -11,3 +11,11 @@
     width: 80%;
     height: 80%;
 } */
+.errorbutton{
+    color: white;
+    background-color: gray;
+}
+.errorbutton:hover{
+    color: black;
+    background-color: white;
+}
