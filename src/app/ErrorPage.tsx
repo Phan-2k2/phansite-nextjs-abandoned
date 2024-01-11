@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import "./ErrorStyling.css"
 import { Button } from "@mui/material";
