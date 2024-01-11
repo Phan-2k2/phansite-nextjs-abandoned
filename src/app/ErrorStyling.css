@@ -1,0 +1,24 @@
+.errorpagemain{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    height: 100vh;
+}
+.travoltagif{
+    width: 80%;
+}
+.errorbutton{
+    margin-top: 1em;
+    color: white;
+    background-color: gray;
+    text-transform: none;
+}
+.errorbutton:hover{
+    margin-top: 1em;
+    color: black;
+    background-color: white;
+    text-transform: none;
+}

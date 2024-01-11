@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'export',
   
    // Add basePath
-  basePath: '/phansite',
+  // basePath: '/phansite',
     /**
    * Disable server-based image optimization. Next.js does not support
    * dynamic features with static exports.
