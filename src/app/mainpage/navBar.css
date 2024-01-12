@@ -1,0 +1,25 @@
+.navBar{
+    height: 7vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.navBarLogo{
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.navBarSpacer{
+    padding-top: 7vh;
+}
+.navBarLink{
+    padding: 5px;
+}
+.navBarLinks{
+    padding-right: 5px;
+}
