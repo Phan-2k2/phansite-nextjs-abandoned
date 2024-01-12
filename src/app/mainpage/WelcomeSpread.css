@@ -1,0 +1,26 @@
+.welcomeSpreadMain{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 85vh;
+    padding-top: 5vh;
+}
+.welcomeProfileImage{
+    /* height: 40vh; */
+    width: 30vw;
+    border-radius: 50%;
+    background-color: rgba(106, 118, 126, 0.463);
+}
+.welcomeSpreadText{
+    display: flex;
+    flex-direction: column;
+}
+.welcomeStaticText{
+    font-size: 4em;
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    color:rgba(208, 179, 145, 1)
+}
