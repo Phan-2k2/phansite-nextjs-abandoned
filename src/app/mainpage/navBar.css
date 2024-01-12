@@ -1,7 +1,7 @@
 .navBar{
-    height: 7vh;
+    height: 10vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.25);
     position: absolute;
     display: flex;
     color: white;
@@ -15,7 +15,7 @@
     margin: 5px;
 }
 .navBarSpacer{
-    padding-top: 7vh;
+    padding-top: 10vh;
 }
 .navBarLink{
     padding: 5px;
