@@ -20,7 +20,7 @@ export default function WelcomeSpread() {
 
     return(
         <div className='welcomeSpreadMain'>
-            <img className='welcomeProfileImage' src="/phansite/images/anime-profile-pic-transparent.png" alt='Austin!'/>
+            <img className='welcomeProfileImage' src="/images/anime-profile-pic-transparent.png" alt='Austin!'/>
             <div className='welcomeSpreadText'>
                 <div>
                     <p className='welcomeStaticText'>Hello, my name is</p>
