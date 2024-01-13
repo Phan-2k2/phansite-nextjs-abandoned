@@ -1,26 +1,56 @@
 .welcomeSpreadMain{
-    color: white;
+    color: #EDF2F4;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: flex-start;
-    height: 85vh;
+    height: 80vh;
     padding-top: 5vh;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    width: 100%;
+
 }
 .welcomeProfileImage{
-    /* height: 40vh; */
-    width: 30vw;
-    border-radius: 50%;
-    background-color: rgba(106, 118, 126, 0.463);
+    height: 100%;
 }
 .welcomeSpreadText{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 5vh;
+    justify-content: space-between;
+    align-items: self-start;
 }
 .welcomeStaticText{
-    font-size: 4em;
+    font-size: 3em;
     display: flex;
-    flex-direction: row;
+    color: #CE796B;
 }
-.name{
-    color:rgba(208, 179, 145, 1)
+.welcomeName{
+    font-size: 8rem;
+}
+.downIcon{
+    padding-bottom: 10px;
+}
+.socialIcons{
+    color: #edf2f4;
+    padding: 10px;
+    margin-top: 10px;
+}
+.socialIcons:hover{
+    color: #CE796B;
+    padding: 10px;
+    margin-top: 10px;
+}
+.downIcon{
+    color: #edf2f4;
+    text-align: center;
+    width: 100%;
+}
+.downIcon:hover{
+    color: #CE796B;
+}
+.socialIconContainer{
+    text-align: center;
 }

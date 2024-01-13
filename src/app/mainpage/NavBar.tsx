@@ -9,10 +9,10 @@ export default function NavBar(){
                     <p>austin.phan</p>
                 </div>
                 <div className="navBarLinks">
-                    <Link className="navBarLink" href="/projectpages">About Me</Link>
-                    <Link className="navBarLink" href="/projectpages">Projects</Link>
-                    <Link className="navBarLink" href="/projectpages">Experience</Link>
-                    <Link className="navBarLink" href="/projectpages">Contact</Link>
+                    <Link className="navBarLink" href="/projectpages">about me</Link>
+                    <Link className="navBarLink" href="/projectpages">projects</Link>
+                    <Link className="navBarLink" href="/projectpages">experience</Link>
+                    <Link className="navBarLink" href="/projectpages">contact</Link>
                 </div>
             </div>
             <div className="navBarSpacer"/>

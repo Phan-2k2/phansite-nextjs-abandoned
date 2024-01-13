@@ -1,24 +1,26 @@
 .navBar{
-    height: 10vh;
+    height: 6vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.50);
     position: absolute;
     display: flex;
-    color: white;
+    color: #EDF2F4;
     align-items: center;
     justify-content: space-between;
+    font-size: 2em;
 }
 .navBarLogo{
     border: 3px solid white;
     border-radius: 5px;
     padding: 5px;
-    margin: 5px;
+    margin-left: 2vw;
 }
+
 .navBarSpacer{
     padding-top: 10vh;
 }
 .navBarLink{
-    padding: 5px;
+    padding: 0 20px;
 }
 .navBarLinks{
     padding-right: 5px;

@@ -6,20 +6,18 @@ export default function AnimatedText () {
         <div>
             <TypeAnimation
                 sequence={[
-                    1000,
-                    'I Write Code', // Types 'One'
-                    1000, // Waits 1s
-                    'I Develop Software', // Deletes 'One' and types 'Two'
-                    1000, // Waits 2s
-                    'I Am Very Confused', // Types 'Three' without deleting 'Two'
-                    () => {
-                    console.log('Sequence completed');
-                    },
+                    2000,
+                    'Software Developer from Brown University',
+                    2000,
+                    'Software Developer at BAE Systems',
+                    2000,
+                    'Software Developer from New Hampshire',
                 ]}
                 wrapper="span"
                 cursor={true}
-                repeat={1}
-                style={{ fontSize: '2em', display: 'inline-block' }}
+                repeat={0}
+                style={{ fontSize: '2.5rem', display: 'inline-block' }}
+                className="animatedText"
                 />
         </div>
     )
