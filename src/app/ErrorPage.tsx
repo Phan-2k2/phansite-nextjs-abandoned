@@ -22,7 +22,7 @@ export default function ErrorPage () {
     return(
         <div className="errorpagemain">
             <ThemeProvider theme={theme}>
-                <Image className="travoltagif" width="426" height="213" src="phansite/images/confusedtravolta.gif" alt="Confused Travolta Meme"/>
+                <Image className="travoltagif" width="426" height="213" src="/phansite/images/confusedtravolta.gif" alt="Confused Travolta Meme"/>
                 <h3>Uh oh. Something Went Wrong Here?</h3>
                 <p>I literally wrote this page because I was procrastinating making actual pages &#128517;</p>
                 <Link href="/"><Button color="primary" size='large' sx={{textTransform: 'none'}} className="Button">Take Me Back</Button></Link>
